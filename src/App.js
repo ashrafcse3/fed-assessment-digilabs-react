@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './components/Home/Banner';
 import BrandNames from './components/Home/BrandNames';
+import Overview from './components/Home/Overview';
 import Navbar from './components/shared/Navbar';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Banner />
       <BrandNames />
+      <Overview />
     </div>
   );
 }

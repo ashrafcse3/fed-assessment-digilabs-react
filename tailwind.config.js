@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        digilabs: '#9D0AFF'
+        digilabs: '#9D0AFF',
+        deepurple: '#151531',
+        graypurple: '#2c2c44'
       },
 
     },
