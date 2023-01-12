@@ -38,8 +38,8 @@ const Navbar = () => {
                     <ShoppingCartIcon className="h-7 stroke-[3px] rounded-md  p-1 mr-1" />
                     <p className='text-md'>Cart</p>
                 </a>
-                <a href="#index" className="btn btn-outline border-digilabs text-digilabs mr-2 rounded-xl font-normal capitalize">Login</a>
-                <a href="#index" className="btn bg-digilabs text-white rounded-xl font-normal">Get started</a>
+                <a href="#index" className="btn hover:bg-purple-700 btn-outline border-digilabs text-digilabs mr-2 rounded-xl font-normal capitalize">Login</a>
+                <a href="#index" className="btn hover:bg-purple-700 bg-digilabs text-white rounded-xl font-normal">Get started</a>
             </div>
         </div>
     );
