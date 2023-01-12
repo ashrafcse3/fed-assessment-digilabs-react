@@ -1,4 +1,5 @@
 import React from 'react';
+import bannerImage from '../../images/head-1.png';
 
 const Banner = () => {
     return (
@@ -17,7 +18,7 @@ const Banner = () => {
                     <a href="#index" className="mt-14 font-medium btn hover:bg-purple-700 bg-digilabs text-white rounded-xl">Request a demo</a>
                 </div>
             </div>
-            image
+            <img className='mt-14' src={bannerImage} alt="banner with mage" />
         </div>
     );
 };
